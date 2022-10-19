@@ -1,0 +1,24 @@
+{
+  "name": "assessment-test-3",
+  "version": "1.0.0",
+  "description": "Taulu on luotu Tukholman konesaliin eu-north-1.\r Datan tauluun luonti tapahtuin JSON tiedostoista komennoilla:\r aws dynamodb put-item --table-name joniAssessmentTest2Uusinta-joniDynamoDBTable-16BABZN7BOH0T --item file://item1.json\r aws dynamodb put-item --table-name joniAssessmentTest2Uusinta-joniDynamoDBTable-16BABZN7BOH0T --item file://item2.json\r aws dynamodb put-item --table-name joniAssessmentTest2Uusinta-joniDynamoDBTable-16BABZN7BOH0T --item file://item3.json\r aws dynamodb put-item --table-name joniAssessmentTest2Uusinta-joniDynamoDBTable-16BABZN7BOH0T --item file://item4.json",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonia89/assessment-test-3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonia89/assessment-test-3/issues"
+  },
+  "homepage": "https://github.com/jonia89/assessment-test-3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1235.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
+}
